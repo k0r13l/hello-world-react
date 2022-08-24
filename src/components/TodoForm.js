@@ -36,7 +36,7 @@ function TodoForm({ addTodoItem }) {
                 type="text" 
                 value={ todoItem.task } 
                 onChange={ handleTaskChange } />
-            <Button type="submit">Añadir</Button>
+            <Button style={{ backgroundColor: "#D16EF5" }} type="submit">Añadir</Button>
         </form>
     );
 }
